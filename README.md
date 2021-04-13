@@ -1,8 +1,6 @@
 # SearchTracker
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/search_tracker`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This Ruby CLI gem pulls data from the Google Search Console using its API and adds that data to AirTable. It is meant to be a tool to help users track their website position in Google SERP results for specific queries.
 
 ## Installation
 
