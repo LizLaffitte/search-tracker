@@ -8,17 +8,17 @@ Gem::Specification.new do |spec|
   spec.authors       = ["LizLaffitte"]
   spec.email         = ["laffitte.digital@gmail.com"]
 
-  spec.summary       = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description   = "TODO: Write a longer description or delete this line."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Ruby CLI gem that allows users to track website performance in Google SERP"
+  spec.description   = "This Ruby CLI gem pulls data from the Google Search Console using its API and adds that data to AirTable. It is meant to be a tool to help users track their website position in Google SERP results for specific queries."
+  spec.homepage      = "https://github.com/LizLaffitte/search-tracker"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/LizLaffitte/search-tracker"
+  spec.metadata["changelog_uri"] = "https://github.com/LizLaffitte/search-tracker/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
