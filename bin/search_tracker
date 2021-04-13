@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/search_tracker'
+CLI.new.call
